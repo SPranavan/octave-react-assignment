@@ -4,7 +4,7 @@ import '../Styles/Contact.css';
 const ContactUs = () => {
     return (
         <div className='Contact-container'>
-            <h2 style={{color:"#33313B"}}>Contact Form</h2>
+            <h2 style={{color:"#33313B"}}>Contact Us</h2>
             <form onSubmit="" className='mt-4'>
                 <div className="mb-3">
                 <label htmlFor="name" className="form-label">
