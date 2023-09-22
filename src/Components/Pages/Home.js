@@ -3,8 +3,10 @@
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
-            <p>This is the home page.</p>
+            <h2 style={{color:"#33313B"}}>Home</h2>
+            <div className="mt-4">
+                <p>This is the home page.</p>
+            </div>
         </div>
     )
 }

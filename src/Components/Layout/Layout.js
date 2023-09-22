@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 import '../Styles/Layout.css';
 
 const Layout = () => {
@@ -8,9 +9,10 @@ const Layout = () => {
     <>
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Header />
-            <div className='classoutlet ms-5' style={{marginTop:"100px"}}>
+            <div className="classoutlet" style={{ flex: 1, overflow: 'auto' }}>
                 <Outlet />
             </div>
+            <Footer />
         </div>
     </>
   )

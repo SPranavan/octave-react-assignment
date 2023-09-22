@@ -1,13 +1,11 @@
+import React from 'react';
+import '../Styles/Contact.css';
+
 const ContactUs = () => {
     return (
-        <div>
-            <h1>Contact Us</h1>
-            <p>Phone: +94771319339</p>
-            <h1>Email</h1>
-            <p>spranavan008@gmail.com</p>
-
-            <h2>Contact Form</h2>
-            <form onSubmit="">
+        <div className='Contact-container'>
+            <h2 style={{color:"#33313B"}}>Contact Form</h2>
+            <form onSubmit="" className='mt-4'>
                 <div className="mb-3">
                 <label htmlFor="name" className="form-label">
                     Name
@@ -44,7 +42,7 @@ const ContactUs = () => {
                     required
                 ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn app-btn-2">
                 Submit
                 </button>
             </form>

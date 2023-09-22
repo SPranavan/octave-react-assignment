@@ -3,10 +3,10 @@
 const AboutUs = () => {
     return (
         <div>
-            <h1>About Us</h1>
-            <p>
-                This is the about us page.
-            </p>
+            <h2 style={{color:"#33313B"}}>About Us</h2>
+            <div className="mt-4">
+               asda
+            </div>
         </div>
     )
 }
