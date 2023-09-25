@@ -11,17 +11,17 @@ const Footer = () => {
                     <div className="footer-inner-container d-flex flex-column align-items-center">
                         <ul className="footer-inner-container-social justify-content-center list-unstyled d-flex flex-row mt-3">
                             <li>
-                                <a href="https://www.facebook.com/DeliciousShawarma" className="footer-nav-item">
+                                <a href="https://www.facebook.com/ShawarmaFactory" className="footer-nav-item">
                                     <i className="bi bi-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/DeliciousShawarma" className="footer-nav-item">
+                                <a href="https://www.instagram.com/ShawarmaFactory" className="footer-nav-item">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/DeliciousShawarma" className="footer-nav-item">
+                                <a href="https://twitter.com/ShawarmaFactory" className="footer-nav-item">
                                     <i className="bi bi-twitter"></i>
                                 </a>
                             </li>

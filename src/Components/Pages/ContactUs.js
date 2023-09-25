@@ -33,20 +33,16 @@ const ContactUs = () => {
     
         emailjs.sendForm('service_95tqtwh', 'template_t8ywebw', e.target, '_30AocFosrENHB134')
           .then((result) => {
-                localStorage.setItem('alertMessage', 'Message sent successfully');
-                window.location.reload();
+                setAlertMessage('Message sent successfully');
+                setShowAlert(true);
+                setTimeout(() => {
+                    setShowAlert(false);
+                }, 3000);
+                form.current.reset(); 
           }, (error) => {
-              console.log(error.text);
+                console.log(error.text);
           });
       };
-
-    useEffect(() => {
-        const storedAlertMessage = localStorage.getItem('alertMessage');
-        if (storedAlertMessage) {
-            handleShowAlert(storedAlertMessage);
-        }
-    }, []);
-
 
     const handleShowAlert = (message) => {
         setAlertMessage(message);
